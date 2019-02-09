@@ -29,3 +29,4 @@ class HomePage(models.Model):
         verbose_name            = "Ana Sayfa"
         verbose_name_plural     = "Ana Sayfa"
         ordering                = ["headerTop"]
+

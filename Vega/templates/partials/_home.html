@@ -1,0 +1,99 @@
+
+{% load static %}
+
+<header class="header" id="main">
+        <!-- Hero -->
+        <div class="header__bg">
+            <div class="header__bg-overlay">
+
+            </div>
+            <video class="header__bg-video" autoplay muted loop>
+                
+                
+                <source src="{{homePage.bgVideoMp4.url}}" type="video/mp4">
+                <source src="{{homePage.bgVideoWebm.url}}" type="video/webm">
+               
+                    
+              
+                Tarayıcınız desteklemiyor..
+            </video>
+        </div>
+        <div class="header__nav" id="navbar">
+            <div class="header__nav-logo">
+                <img src="{% static 'img/VegaLogo20yil.png' %}" alt="Vega Events & Agency Logo" class="header__nav-logo-box">
+            </div>
+
+            <div class="header__nav-menu nav-toggle" id="hamMenuBtn">
+                <div class="header__hamburgerIcon nav-toggle-bar"></div>
+            </div>
+
+            <nav class="header__nav-overlay nav">
+                <ul>
+                    <li><a href="#main">Ana Sayfa</a></li>
+                    <li><a href="#about">Biz</a></li>
+                    <li><a href="#history">Tarihçe</a></li>
+                    <li><a href="#team">Ekibimiz</a></li>
+                    <li><a href="#services">Hizmetlerimiz</a></li>
+                    <li><a href="#celebrity">Sanatçılarımız</a></li>
+                    <li><a href="#hr">IK & Ekip Yönetimi</a></li>
+                    <li><a href="#portfolio">İşlerimiz</a></li>
+                    <li><a href="#references">Referanslarımız</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                    <br>
+                    <li>
+                        <div class="nav-social">
+
+                            <div class="nav-social-mail">
+                                <a href="mailto:info@vegaajans.com"> <i class="fa  fa-envelope"></i></a>
+                            </div>
+                            <div class="nav-social-facebook">
+                                <a href="https://www.facebook.com/vegaajans"> <i class="fa  fa-facebook-f"></i></a>
+                            </div>
+                            <div class="nav-social-twitter">
+                                <a href="https://twitter.com/VegaAjans"> <i class="fa  fa-twitter"></i></a>
+                            </div>
+                            <div class="nav-social-instagram">
+                                <a href="https://instagram.com/vegaajans/"> <i class="fa  fa-instagram"></i></a>
+                            </div>
+                            <div class="nav-social-youtube">
+                                <a href="https://www.youtube.com/channel/UCVTZR_0MsF_Fw1iz_LNUf0Q"> <i class="fa  fa-youtube"></i></a>
+                            </div>
+                            <div class="nav-social-linkedin">
+                                <a href="http://www.vegaajans.com/#"> <i class="fa  fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+
+            </nav>
+        </div>
+        <div class="header__headline wow animated fadeIn slower">
+            <div>
+                <h2 class="header__headline-h2 text-h3">Hayallerinizi gerçeğe dönüştürüyoruz...</h2>
+            </div>
+            <div>
+                <h1 class="header__headline-h1 text-h1">Vega Agency & Events</h1>
+            </div>
+            <div class="header__headline-text text-big line-height-big">
+                <p>İnanarak ve çalışarak çıktığımız bu yolda, yakaladığımız her başarı, bizi nasıl <b>« Bir
+                        Adım
+                        Daha
+                        İleriye »</b> ulaştırdıysa, biz de attığımız her adımı yeni başarılar elde etmek için
+                    en
+                    büyük
+                    nedenimiz sayıyoruz.
+                </p>
+                <p>Biliyoruz yolumuz uzun, inanıyoruz ve çalışıyoruz, müşterilerimizi hedeflerine ulaştırırken
+                    birlikte yeni başarıları paylaşmak en büyük amacımız…
+                </p>
+            </div>
+            <div><a class="header__headline-btn" href="#about"> Hazır mısınız? O zaman
+                    başlayalım...</a>
+            </div>
+        </div>
+
+    </header>
+    
