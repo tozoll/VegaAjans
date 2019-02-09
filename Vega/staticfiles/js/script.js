@@ -46,3 +46,17 @@ for (var i = 0; i < imgBoxs.length; i++) {
 
 }
 
+function updateClass() {
+    console.log("111");
+    var about = document.querySelector(".about");
+    ps = about.getElementsByTagName('p');
+    ps.forEach(function(item){
+       //item.classList.add("about__text text-normal line-height-big")
+       alert(item);
+    })
+};
+
+$(document).ready(function(){
+    updateClass();
+});
+

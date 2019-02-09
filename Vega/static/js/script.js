@@ -46,3 +46,14 @@ for (var i = 0; i < imgBoxs.length; i++) {
 
 }
 
+function updateClass() {
+    
+    var about = document.querySelector(".about");
+    ps = about.getElementsByTagName('p');
+    for(var item in ps){ps[item].className = "about__text text-normal line-height-big";}
+};
+
+$(document).ready(function(){
+    updateClass();
+});
+
