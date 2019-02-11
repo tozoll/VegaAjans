@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'layout',
     'home',
     'about',
+    'history',
     'ckeditor',
 ]
 
