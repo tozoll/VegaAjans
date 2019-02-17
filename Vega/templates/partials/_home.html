@@ -18,58 +18,48 @@
                 Tarayıcınız desteklemiyor..
             </video>
         </div>
-        <div class="header__nav" id="navbar">
-            <div class="header__nav-logo">
-                <img src="{% static 'img/VegaLogo20yil.png' %}" alt="Vega Events & Agency Logo" class="header__nav-logo-box">
+
+<!-- Nav -->
+<nav id="nav" class="navbar nav-transparent">
+    <div class="container">
+
+        <div class="navbar-header">
+            <!-- Logo -->
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="{% static 'img/VegaLogo_Main copy.png'%}" alt="Vega Events & Agency Logo" class="logo">
+                    <img class="logo-alt" src="{% static 'img/VegaLogo20yil.png' %}" alt="Vega Events & Agency Logo">
+
+                </a>
             </div>
+            <!-- /Logo -->
 
-            <div class="header__nav-menu nav-toggle" id="hamMenuBtn">
-                <div class="header__hamburgerIcon nav-toggle-bar"></div>
+            <!-- Collapse nav button -->
+            <div class="nav-collapse">
+                <span></span>
             </div>
-
-            <nav class="header__nav-overlay nav">
-                <ul>
-                    <li><a href="#main">Ana Sayfa</a></li>
-                    <li><a href="#about">Biz</a></li>
-                    <li><a href="#history">Tarihçe</a></li>
-                    <li><a href="#team">Ekibimiz</a></li>
-                    <li><a href="#services">Hizmetlerimiz</a></li>
-                    <li><a href="#celebrity">Sanatçılarımız</a></li>
-                    <li><a href="#hr">IK & Ekip Yönetimi</a></li>
-                    <li><a href="#portfolio">İşlerimiz</a></li>
-                    <li><a href="#references">Referanslarımız</a></li>
-                    <li><a href="#contact">İletişim</a></li>
-                    <br>
-                    <li>
-                        <div class="nav-social">
-
-                            <div class="nav-social-mail">
-                                <a href="mailto:info@vegaajans.com"> <i class="fa  fa-envelope"></i></a>
-                            </div>
-                            <div class="nav-social-facebook">
-                                <a href="https://www.facebook.com/vegaajans"> <i class="fa  fa-facebook-f"></i></a>
-                            </div>
-                            <div class="nav-social-twitter">
-                                <a href="https://twitter.com/VegaAjans"> <i class="fa  fa-twitter"></i></a>
-                            </div>
-                            <div class="nav-social-instagram">
-                                <a href="https://instagram.com/vegaajans/"> <i class="fa  fa-instagram"></i></a>
-                            </div>
-                            <div class="nav-social-youtube">
-                                <a href="https://www.youtube.com/channel/UCVTZR_0MsF_Fw1iz_LNUf0Q"> <i class="fa  fa-youtube"></i></a>
-                            </div>
-                            <div class="nav-social-linkedin">
-                                <a href="http://www.vegaajans.com/#"> <i class="fa  fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-
-
-
-            </nav>
+            <!-- /Collapse nav button -->
         </div>
+
+        <!--  Main navigation  -->
+        <ul class="main-nav nav navbar-nav navbar-right">
+            <li><a href="#main">Ana Sayfa</a></li>
+            <li><a href="#about">Biz</a></li>
+            <li><a href="#history">Tarihçe</a></li>
+            <li><a href="#team">Ekibimiz</a></li>
+            <li><a href="#services">Hizmetlerimiz</a></li>
+            <li><a href="#celebrity">Sanatçılarımız</a></li>
+            <li><a href="#hr">IK & Ekip Yönetimi</a></li>
+            <!-- <li><a href="#portfolio">İşlerimiz</a></li> -->
+            <li><a href="#references">Referanslarımız</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+        <!-- /Main navigation -->
+
+    </div>
+</nav>
+<!-- /Nav -->
+
         <div class="header__headline wow animated fadeIn slower">
             <div>
                 <h2 class="header__headline-h2 text-h3">Hayallerinizi gerçeğe dönüştürüyoruz...</h2>

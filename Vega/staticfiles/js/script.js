@@ -1,26 +1,26 @@
 new WOW().init();
 
-(function () {
+// (function () {
 
-    var hamburger = {
-        navToggle: document.querySelector('.nav-toggle'),
-        nav: document.querySelector('nav'),
+//     var hamburger = {
+//         navToggle: document.querySelector('.nav-toggle'),
+//         nav: document.querySelector('nav'),
 
-        doToggle: function (e) {
-            //e.preventDefault();
-            this.navToggle.classList.toggle('expanded');
-            this.nav.classList.toggle('expanded');
-        }
-    };
+//         doToggle: function (e) {
+//             //e.preventDefault();
+//             this.navToggle.classList.toggle('expanded');
+//             this.nav.classList.toggle('expanded');
+//         }
+//     };
 
-    hamburger.navToggle.addEventListener('click', function (e) {
-        hamburger.doToggle(e);
-    });
-    hamburger.nav.addEventListener('click', function (e) {
-        hamburger.doToggle(e);
-    });
+//     hamburger.navToggle.addEventListener('click', function (e) {
+//         hamburger.doToggle(e);
+//     });
+//     hamburger.nav.addEventListener('click', function (e) {
+//         hamburger.doToggle(e);
+//     });
 
-}());
+// }());
 
 // ----------------------------
 
@@ -45,15 +45,4 @@ for (var i = 0; i < imgBoxs.length; i++) {
     })
 
 }
-
-function updateClass() {
-    
-    var about = document.querySelector(".about");
-    ps = about.getElementsByTagName('p');
-    for(var item in ps){ps[item].className = "about__text text-normal line-height-big";}
-};
-
-$(document).ready(function(){
-    updateClass();
-});
 
